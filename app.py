@@ -38,7 +38,7 @@ if df is not None:
     if section == "1. Introducción y Contexto":
         
         st.title("🌍 Reporte sobre la felicidad global (2005-2022)")
-        st.markdown("#### Reporte sobre los determinantes socioeconómicos y psicológicos de la felicidad humana en el mundo.")
+        st.markdown("#### Sobre los determinantes socioeconómicos y psicológicos de la felicidad humana en el mundo.")
         st.divider()
 
         # 1.1 PROPOSITO
