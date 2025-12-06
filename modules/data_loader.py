@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import os
 
-def load_local_data(folder_path='data'):
+def load_local_data(folder_path='./data'):
     """
     Carga el archivo 'World Happiness Report.csv' (2005-2022).
     Carga TODAS las variables disponibles.
@@ -18,7 +18,6 @@ def load_local_data(folder_path='data'):
         return None
 
     file_path = os.path.join(folder_path, files[0])
-    print(file_path)
     
     try:
         df = pd.read_csv(file_path)
