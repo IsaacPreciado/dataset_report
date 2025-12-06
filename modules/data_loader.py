@@ -69,5 +69,4 @@ def load_local_data(folder_path='./data'):
 
     except Exception as e:
         st.error(f"Error al cargar: {e}")
-        st.error(f"{file_path}")
         return None
